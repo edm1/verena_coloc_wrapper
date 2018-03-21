@@ -11,7 +11,7 @@ source activate vloc
 ```
 
 ### Usage
-The wrapper will run 1D-finemapping if only `--left_sumstats` dataset is specified. If a second dataset `--right_sumstats` is specified, it will run 1D-finemapping, followed by co-localisation between the left and right datasets.
+The wrapper will run 1D-finemapping if only `--left_sumstats` dataset is specified. If a second dataset `--right_sumstats` is specified, it will also run 1D-finemapping for the right dataset, followed by co-localisation between the left and right datasets.
 
 If no options are set for `--right_*` args, they will inherit the equivalent `--left_*` arg (except for `--right_sumstats`).
 
