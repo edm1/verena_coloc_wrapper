@@ -35,6 +35,8 @@ usage: vloc.py [-h] --left_sumstats <file> --left_cov <file> --left_covmeta
 
 optional arguments:
   -h, --help            show this help message and exit
+
+input file arguments:
   --left_sumstats <file>
                         Summary statistics file
   --left_cov <file>     Covariance matrix - correlation structure between
@@ -47,7 +49,11 @@ optional arguments:
   --right_cov <file>    Covariance matrix - leave blank if same as left_cov
   --right_covmeta <file>
                         Covariance matrix SNP info (from LDstore)
+
+output file arguments:
   --outprefix <str>     Output prefix
+
+finemapping arguments:
   --left_kmax <int>     Maximum number of causal variants (default: 5)
   --left_kstart <int>   Full exploration of sets with #kstart causal variants
                         (default: 1)
@@ -62,6 +68,8 @@ optional arguments:
   --g <str>             g-parameter of the g-prior (default: BRIC). see
                         Mixtures of g Priors for Bayesian Variable Selection
                         Liang et al 2008
+
+file parsing arguments:
   --sep <str>           Column sep (default: tab)
   --left_rsidcol <str>  RSID column (default: rsid)
   --left_chromcol <str>
