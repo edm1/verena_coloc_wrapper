@@ -37,13 +37,13 @@ optional arguments:
   -h, --help            show this help message and exit
 
 input file arguments:
+  --range <str>         Genomic range in format chrom:start-end
   --left_sumstats <file>
                         Summary statistics file
   --left_cov <file>     Covariance matrix - correlation structure between
                         variants
   --left_covmeta <file>
                         Covariance matrix SNP info (from LDstore)
-  --range <str>         Genomic range in format chrom:start-end
   --right_sumstats <file>
                         (Optional) Summary statistics file
   --right_cov <file>    Covariance matrix - leave blank if same as left_cov
