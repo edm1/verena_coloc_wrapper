@@ -84,3 +84,7 @@ optional arguments:
                         Effect allele columns (default: left_effalcol)
   --right_ncol <str>    Sample size column (default: n)
 ```
+
+### Outputs
+
+TODO
