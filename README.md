@@ -13,6 +13,8 @@ source activate vloc
 ### Usage
 The wrapper will run 1D-finemapping if only `--left_sumstats` dataset is specified. If a second dataset `--right_sumstats` is specified, it will run 1D-finemapping, followed by co-localisation between the left and right datasets.
 
+If no options are set for `--right_*` args, they will inherit the equivalent `--left_*` arg (except for `--right_sumstats`).
+
 The covariance matrix and meta data (`--left_cov` and `--left_covmeta`) are outputs from LDstore. See `test_script.sh` for example workflow for a single locus.
 
 ```
