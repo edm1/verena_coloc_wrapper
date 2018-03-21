@@ -15,7 +15,7 @@ The wrapper will run 1D-finemapping if only `--left_sumstats` dataset is specifi
 
 If no options are set for `--right_*` args, they will inherit the equivalent `--left_*` arg (except for `--right_sumstats`).
 
-The covariance matrix and meta data (`--left_cov` and `--left_covmeta`) are outputs from LDstore. See `test_script.sh` for example workflow for a single locus.
+The covariance matrix and meta data (`--left_cov` and `--left_covmeta`) are outputs from [LDstore](http://www.christianbenner.com/). See `test_script.sh` for example workflow for a single locus.
 
 ```
 $ python scripts/vloc.py --help
