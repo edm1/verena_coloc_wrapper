@@ -3,7 +3,6 @@
 
 # Args
 left_sum=data/20002_1226.nealeUKB_20170915.assoc.clean.tsv.gz
-# left_sum=temp/test_sumstat_slice.tsv
 inplink=../../reference_data/1000Genomes_phase3/plink_format/EUR/1kg_p3.20130502.EUR.CHROM
 chrom=1
 pos=108375289
@@ -37,6 +36,8 @@ python scripts/vloc.py \
   --left_kmax 1 \
   --range $chrom":"$range \
   --outprefix $outpref
+
+rm -rf temp
 
 # Top loci for 20002_1226:
 # 1_114377568_A_G
