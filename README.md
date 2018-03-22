@@ -95,4 +95,13 @@ file parsing arguments:
 
 ### Outputs
 
-TODO
+```
+{outprefix}.left_configurations.tsv:  finemapping results for left dataset
+{outprefix}.left_configurations.pkl:  pickle of OneDConfigurationSample for left dataset
+{outprefix}.right_configurations.tsv: finemapping results for right dataset
+{outprefix}.right_configurations.pkl: pickle of OneDConfigurationSample for right dataset
+{outprefix}.joint_configurations.tsv: co-localisation results for joint analysis
+{outprefix}.joint_configurations.pkl: pickle of TwoDConfigurationSample for joint analysis
+{outprefix}.joint_evidence.tsv:       Single float giving co-localisation evidence (sum of joint posteriors from {outprefix}.joint_configurations.tsv)
+
+```
